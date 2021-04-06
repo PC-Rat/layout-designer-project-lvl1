@@ -1,0 +1,417 @@
+/** CSS STYLE **/
+html {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+html p {
+  font: 400 16px/1.5 'Open Sans', sans-serif;
+  color: #2A2626;
+  text-align: left;
+}
+
+section {
+  width: 1440px;
+  height: 914px;
+  background-image: url("/home/dell/Hexlettt/html-project/html-boilerplate-master/src/img/bg.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+@font-face {
+  font-family: 'Neucha''Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Neucha', sans-serif;
+  color: #FE8A02;
+  font-weight: 400;
+  line-height: 1em;
+  text-align: left;
+}
+
+h1, h2 {
+  font-size: 72px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+h4 {
+  font-size: 52px;
+}
+
+h5 {
+  font-size: 34px;
+}
+
+span {
+  color: #2A2626;
+}
+
+button {
+  width: 148px;
+  height: 49px;
+  background-color: #FE8A02;
+  border: none;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #EA7600;
+}
+
+video {
+  width: 919px;
+  height: 569px;
+}
+
+/* Макет для вёрстки */
+.container {
+  width: 1110px;
+  height: auto;
+  margin-left: 165px;
+}
+
+.columns {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  padding-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.columns-col {
+  height: auto;
+  flex-basis: 540px;
+  margin-right: 20px;
+}
+
+.intro {
+  background: url("/home/dell/Hexlettt/html-project/html-boilerplate-master/src/img/main.png") no-repeat top right;
+  background-size: 962px 444px;
+  height: 700px;
+  margin: auto;
+}
+
+.intro-subtitles {
+  width: 1138px;
+  height: 250px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+}
+
+.white {
+  width: inherit;
+  height: inherit;
+  background-color: #ffffff;
+}
+
+.about-subtitles {
+  width: 1110px;
+  height: 226px;
+  margin-bottom: 120px;
+}
+
+.about-subtitles h2 {
+  text-align: center;
+}
+
+.about-subtitles p {
+  text-align: center;
+}
+
+.video {
+  width: 919px;
+  height: 569px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+.f-points {
+  background-color: #42413C;
+}
+
+.f-points-all-blocks {
+  position: absolute;
+  width: 1110px;
+  height: 643px;
+  margin-top: 35px;
+  padding-top: 24px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.f-points-block {
+  width: 350px;
+  height: 323px;
+  background-color: white;
+  margin: 10px;
+}
+
+.f-points-block:hover {
+  background-color: #FE8A02;
+}
+
+.f-points-block:hover h3, h5, p {
+  color: white;
+}
+
+.f-points-block:hover h5, p {
+  color: white;
+}
+
+.f-points-block:hover p {
+  color: white;
+}
+
+.f-points-subtitles {
+  width: inherit;
+  height: inherit;
+  background-color: #42413C;
+  margin: 0;
+  padding: 0;
+}
+
+.f-points-subtitles h4 {
+  letter-spacing: 0.01em;
+  line-height: 1.2em;
+  margin-top: 0;
+}
+
+.f-points-subtitles span {
+  color: white;
+}
+
+.f-points-content {
+  width: 312px;
+  height: 275px;
+  margin: 24px;
+}
+
+.f-points-content h3, h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.f-points-content h3 {
+  color: #2A2626;
+}
+
+.f-points-content h5 {
+  color: #FE8A02;
+}
+
+.f-points-block a {
+  text-decoration: none;
+}
+
+.details .columns {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.details h2 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.details span {
+  font-size: 1.3em;
+}
+
+.how {
+  width: 1100px;
+  height: 27px;
+  position: relative;
+}
+
+.how p {
+  font-size: 0.9em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 5px auto 5px 10px;
+}
+
+.light h2, h5, span, p {
+  color: #2A2626;
+  text-align: left;
+}
+
+.light-subtitles {
+  position: relative;
+  width: 470px;
+  height: 434px;
+  margin: 0 0 50px auto;
+  padding-top: 29px;
+}
+
+.how-light {
+  background-color: #B09A81;
+  margin: 100px 0 20px 0;
+}
+
+.how-light p {
+  color: white;
+}
+
+.brown {
+  background-color: #B09A81;
+}
+
+.brown-subtitles {
+  position: relative;
+  width: 500px;
+  height: 434px;
+  margin: 0 auto 0 0;
+  padding-top: 10px;
+}
+
+.brown-subtitles h2 {
+  color: white;
+}
+
+.brown-subtitles h5 {
+  color: white;
+}
+
+.brown-subtitles span {
+  color: white;
+}
+
+.how-brown {
+  background-color: white;
+  margin: 100px 0 20px 0;
+}
+
+.how-brown p {
+  color: #B09A81;
+}
+
+.brown .columns-col p {
+  color: white;
+}
+
+.effect-content {
+  background: url("/home/dell/Hexlettt/html-project/html-boilerplate-master/src/img/imgs-3.png") no-repeat top left;
+  height: 760px;
+  margin: 0;
+}
+
+.undertime-opt {
+  width: inherit;
+  height: 914px;
+}
+
+.undertime-opt-content {
+  background: url("/home/dell/Hexlettt/html-project/html-boilerplate-master/src/img/imgs-2.png") no-repeat top right;
+  background-size: 578px 434px;
+  height: 760px;
+  margin: 0;
+}
+
+.novelty-content {
+  background: url("/home/dell/Hexlettt/html-project/html-boilerplate-master/src/img/img-distortion-of-novelty.png") no-repeat top left;
+  background-size: 578px 434px;
+  height: 760px;
+  margin: 0;
+}
+
+.priceless-content {
+  background: url("/home/dell/Hexlettt/html-project/html-boilerplate-master/src/img/imgs-1.png") no-repeat top right;
+  background-size: 578px 434px;
+  height: 760px;
+  margin: 0;
+}
+
+.error-content {
+  background: url("/home/dell/Hexlettt/html-project/html-boilerplate-master/src/img/imgs.png") no-repeat top left;
+  background-size: 578px 434px;
+  height: 760px;
+  margin: 0;
+}
+
+.footer {
+  background-color: white;
+}
+
+.dark {
+  width: inherit;
+  height: 190px;
+  background-color: #42413C;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.f-text {
+  width: 393px;
+  height: 80px;
+  position: relative;
+  margin: 55px;
+}
+
+.dark h5 {
+  color: white;
+}
+
+.f-form {
+  width: 493px;
+  height: 80px;
+  display: inline-flex;
+  margin-top: 55px;
+  margin-right: 55px;
+}
+
+#mail {
+  width: 423px;
+  height: 50px;
+}
+
+label {
+  font-size: 1em;
+  color: white;
+}
+
+.form p {
+  font-size: 12px;
+  color: white;
+}
+
+footer button {
+  width: 70px;
+  height: 55px;
+  background-color: #FE8A02;
+  border: none;
+  margin: 23px auto auto 0;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+  margin: 15px 25px;
+}
+
+.f-links p, a {
+  font-size: 12px;
+  text-align: center;
+}
